@@ -1,3 +1,4 @@
+export { createClient } from "./api/ApiClient";
 export { ApiClient } from "./api/ApiClient";
 export { ApiQuery } from "./api/ApiQuery";
 export { RestClient } from "./api/RestClient";

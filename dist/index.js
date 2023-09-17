@@ -1,8 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ApiProvider = exports.ApiContext = exports.useApi = exports.RestClient = exports.ApiQuery = exports.ApiClient = void 0;
+exports.ApiProvider = exports.ApiContext = exports.useApi = exports.RestClient = exports.ApiQuery = exports.ApiClient = exports.createClient = void 0;
 var ApiClient_1 = require("./api/ApiClient");
-Object.defineProperty(exports, "ApiClient", { enumerable: true, get: function () { return ApiClient_1.ApiClient; } });
+Object.defineProperty(exports, "createClient", { enumerable: true, get: function () { return ApiClient_1.createClient; } });
+var ApiClient_2 = require("./api/ApiClient");
+Object.defineProperty(exports, "ApiClient", { enumerable: true, get: function () { return ApiClient_2.ApiClient; } });
 var ApiQuery_1 = require("./api/ApiQuery");
 Object.defineProperty(exports, "ApiQuery", { enumerable: true, get: function () { return ApiQuery_1.ApiQuery; } });
 var RestClient_1 = require("./api/RestClient");
